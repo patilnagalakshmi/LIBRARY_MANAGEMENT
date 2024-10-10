@@ -13,7 +13,7 @@ executor: ThreadPoolExecutor = ThreadPoolExecutor()
 dsn: str = oracledb.makedsn("localhost", 1521, service_name="XE")
 config: dict = {
     'user': 'system',
-    'password': 'appa',
+    'password': '*****',
     'dsn': dsn,
     'min': 1,
     'max': 5,
